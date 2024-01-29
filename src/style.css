@@ -1002,5 +1002,8 @@ button:focus {
     .back {
       transform: none; /* Remove back face rotation */
     }
+    .proj-font{
+      text-decoration: none;
+    }
   
 }
