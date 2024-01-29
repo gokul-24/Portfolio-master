@@ -102,7 +102,7 @@ function Home2() {
                     <h5 class="proj-font">Django,HTML,CSS,SQL</h5>
                   </div>
                   <div class="back">
-                    <p class="proj-font">Transform trash into treasure and build a sustainable future with [Website Name], your one-stop e-waste marketplace! Connect individuals, businesses, and responsible recycling agencies for seamless disposal and resource recovery. Sell your old gadgets to local buyers, find bulk raw materials directly from recycling factories, and empower small businesses with ethical sourcing options.</p>
+                    <p class="proj-font">Transform trash into treasure and build a sustainable future, your one-stop e-waste marketplace! Connect individuals, businesses, and responsible recycling agencies for seamless disposal and resource recovery. Sell your old gadgets to local buyers, find bulk raw materials directly from recycling factories, and empower small businesses with ethical sourcing options.</p>
                   </div>
                </div>
              </div>
