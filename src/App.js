@@ -8,6 +8,9 @@ import ScrollToTop from "./components/ScrollToTop";
 import "./style.css";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
+import ReactGA from "react-ga4";
+
+ReactGA.initialize("G-6YMS66G2J2");
 
 function App() {
   const [load, upadateLoad] = useState(true);
