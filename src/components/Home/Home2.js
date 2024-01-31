@@ -1,8 +1,12 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myimg from "../../Assets/gokul.jpeg";
-import leaf from "../../Assets/Projects/leaf.png";
+import quiz from "../../Assets/quiz.png";
+import url from "../../Assets/url.png";
+import shop from "../../Assets/shop.jpg";
+import waste from "../../Assets/e-waste.png";
 import Tilt from "react-parallax-tilt";
+
 import {
   AiFillGithub,
 
@@ -68,7 +72,7 @@ function Home2() {
              <div class="flip-container">
                <div class="flipper">
                   <div class="front">
-                    <img src={leaf} alt="Image Description"/>
+                    <img src={quiz} alt="Image Description"/>
                     <h2 class="proj-font">Quiz Application</h2>
                     <h5 class="proj-font">React, Spring, Docker, Netflix Eureka Server</h5>
                   </div>
@@ -82,7 +86,7 @@ function Home2() {
              <div class="flip-container">
                <div class="flipper">
                   <div class="front">
-                    <img src={leaf} alt="Image Description"/>
+                    <img src={url} alt="Image Description"/>
                     <h2 class="proj-font">URL Shortner</h2>
                     <h5 class="proj-font">Python,Django,HTML,CSS,SQLite3</h5>
                   </div>
@@ -96,7 +100,7 @@ function Home2() {
              <div class="flip-container">
                <div class="flipper">
                   <div class="front">
-                    <img src={leaf} alt="Image Description"/>
+                    <img src={waste} alt="Image Description"/>
                     <h2 class="proj-font">E-Waste Management</h2>
                     <h5 class="proj-font">Django,HTML,CSS,SQL</h5>
                   </div>
@@ -110,7 +114,7 @@ function Home2() {
              <div class="flip-container">
                <div class="flipper">
                   <div class="front">
-                    <img src={leaf} alt="Image Description"/>
+                    <img src={shop} alt="Image Description"/>
                     <h2 class="proj-font">E-Commerce</h2>
                     <h5 class="proj-font">Spring,Hibernate,MySQL</h5>
                   </div>
