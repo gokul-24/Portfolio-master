@@ -312,18 +312,19 @@ button:focus {
   }
   .home-section{
     background-image: url(./Assets/home2.jpg);
-    background-size: contain;
-    background-repeat: no-repeat;
+    width: 767px !important;
   }
-
+  .home-section background-image{
+    width: 50px !important;
+  };
   .heading {
     font-size: 1em !important;
-    padding-left: 180px !important;
+    padding-left: 50px !important;
   }
   
   .heading-name {
     font-size:1em !important;
-    padding-left: 180px !important;
+    padding-left: 45px !important;
   }
 }
 
@@ -334,7 +335,6 @@ button:focus {
   padding-bottom: 70px !important;
   padding-top: 70px !important;
 }
-
 /* -------------------------end custom-----------------------------------------*/
 
 /* --------------------------------------------- skills ---------------------------------------*/
