@@ -163,8 +163,8 @@ button:focus {
 }
 
 .logo {
-  height: 3.0em !important;
-  width: 8.0em !important;
+  height: 2.0em !important;
+  width: 5.0em !important;
 }
 
 .navbar-nav .nav-link {
@@ -181,6 +181,7 @@ button:focus {
   .nav-link {
     padding: 0.7rem 1rem !important;
   }
+
 }
 
 .navbar-nav .nav-item {
@@ -310,20 +311,20 @@ button:focus {
     display: none !important;
   }
   .home-section{
-    background-image: url(./Assets/home2.jpg);
-    width: 767px !important;
+    background-image: url(./Assets/home.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
   }
-  .home-section background-image{
-    width: 50px !important;
-  };
+
   .heading {
     font-size: 1em !important;
-    padding-left: 50px !important;
+    padding-left: 250px !important;
+    margin-top: -150px;
   }
   
   .heading-name {
     font-size:1em !important;
-    padding-left: 45px !important;
+    padding-left: 250px !important;
   }
 }
 
@@ -333,6 +334,12 @@ button:focus {
   position: relative;
   padding-bottom: 70px !important;
   padding-top: 70px !important;
+}
+
+@media(max-width: 767px){
+  .home-about-section{
+    margin-top: -200px !important;
+  }
 }
 /* -------------------------end custom-----------------------------------------*/
 
