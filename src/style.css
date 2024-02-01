@@ -312,11 +312,11 @@ button:focus {
   }
   .home-section{
     background-image: url(./Assets/home2.jpg);
-    width: 767px !important;
+    background-size: cover;  /* Ensures image covers the entire container */
+    background-position: center;  /* Centers the image within the container */
+    height: 100vh;  /* Sets height to 100% of viewport height, preventing cropping */
+    width: 100vw;  /* Sets width to 100% of viewport width, ensuring full coverage */
   }
-  .home-section background-image{
-    width: 50px !important;
-  };
   .heading {
     font-size: 1em !important;
     padding-left: 50px !important;
