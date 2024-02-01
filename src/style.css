@@ -300,6 +300,9 @@ button:focus {
   font-size: 1.2em !important;
   color: #c9f6f7 !important;
 }
+.particle{
+  visibility: hidden;
+}
 
 @media (max-width: 767px) {
   .Typewriter__wrapper {
@@ -311,20 +314,35 @@ button:focus {
     display: none !important;
   }
   .home-section{
-    background-image: url(./Assets/home2.jpg);
-    background-size: cover;  /* Ensures image covers the entire container */
-    background-position: center;  /* Centers the image within the container */
-    height: 100vh;  /* Sets height to 100% of viewport height, preventing cropping */
-    width: 100vw;  /* Sets width to 100% of viewport width, ensuring full coverage */
+    position: relative;
+    z-index: -1;
+    background-image: var(--image-gradient), url(./Assets/home-bg.jpg);
+    background-position: center top !important;
+    background-repeat: no-repeat;
+    width: 100vh;
+    height: 80vh;
+    padding-bottom: 30px !important;
+    padding-top: 30px !important;
   }
   .heading {
-    font-size: 1em !important;
+    font-size: 2em !important;
     padding-left: 50px !important;
   }
   
   .heading-name {
-    font-size:1em !important;
+    font-size:2em !important;
     padding-left: 45px !important;
+  }
+  .heading-name1 {
+    font-size:2em !important;
+    padding-left: 45px !important;
+  }
+  .home-header{
+    margin-top: 60px !important;
+    margin-left: 10px;
+  }
+  .particle{
+    visibility: visible;
   }
 }
 

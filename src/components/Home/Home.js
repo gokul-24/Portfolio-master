@@ -1,4 +1,5 @@
 import React from "react";
+import Particle from "../Particle";
 import { Container, Row, Col } from "react-bootstrap";
 
 import Home2 from "./Home2";
@@ -9,6 +10,9 @@ function Home() {
     <div>
       <Container fluid className="home-section" id="home">
         <Container className="home-content">
+          <div className="particle">
+          <Particle/>
+          </div>
           <Row>
             <Col></Col>
             <Col></Col>
@@ -21,8 +25,9 @@ function Home() {
               </h1>
 
               <h1 className="heading-name">
-                <span>Are you looking for a <Type/></span>
+                <span>I'm Gokul Krishna<Type/></span>
               </h1>
+              
             </Col>
           </Row>
         </Container>
